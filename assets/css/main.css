@@ -1387,7 +1387,7 @@
 		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
 		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #35b88f;
+		color: rgb(45, 160, 120);
 		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
 		text-decoration: none;
 		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
@@ -1500,6 +1500,7 @@
 
 /* List */
 
+	
 	ul.default {
 		list-style: disc;
 		padding-left: 1em;
@@ -1513,6 +1514,22 @@
 			ul.default li:first-child {
 				margin-top: 0;
 			}
+
+	ul.tools {
+		cursor: default;
+	}
+	
+		ul.tools li {
+			display: inline-block;
+		}
+
+		ul.tools img {
+			display: inline-block;
+			width: 4.25em;
+			height: 4.25em;
+			text-align: center;
+			border: 0;
+		}
 
 	ul.icons {
 		cursor: default;
